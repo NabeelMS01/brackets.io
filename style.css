@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+
+#home-section{
+    width: 100%;
+    height: 2000px;
+}
+
+
+body {
+    margin-top: 90px;
+   font-family: 'Syne', sans-serif;
+}
+
+.container-fluid {
+    background-color: #f0f9ff;
+    height: 90px;
+}
+
+.navbar {
+    background-color: #f0f9ff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: static;
+    padding-left: 43px;
+}
+
+/* mark */
+
+.nav-right-menu {
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.dwn-btn {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    min-width: 145.4px;
+    height: 53px;
+    position: static;
+
+}
+.dwn-btn2 {
+   background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 193.4px;
+    height: 53px;
+    position: static;
+    margin-top: 25px;
+
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.nav-link {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link :hover {
+    color: black;
+}
+
+.nav-left-menu {
+    display: flex;
+    padding-left: 25%;
+}
+
+.link-img {
+    height: 16px;
+}
+
+.navbar-nav {
+    padding-right: 30px;
+
+}
+
+.right-nav-logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    position: relative;
+    right: -32px;
+
+}
+
+.large-12 {
+    width: 100%;
+    height: 45.5rem;
+    background-color: #f0f9ff;
+
+}
+
+.large-12 span h1 {
+    padding-top: 40px;
+    font: 600 48px / 56px "Syne", sans-serif;
+    text-align: center;
+
+}
+
+
+.btn-d :hover {
+    background-color: rgb(29, 29, 29);
+    border: none;
+    border-radius: 5px;
+    color: rgb(143, 121, 121);
+    width: 145.4px;
+    height: 53px;
+    position: static;
+
+}
+
+.intro {
+    padding-top: 23px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font: 400 20px / 30px "Inter", sans-serif;
+}
+
+
+.nav-item :hover {
+    text-decoration: underline;
+
+
+
+}
+#Hero-wrapper{
+    height: 727px;
+ 
+    background-color: #f0f9ff;
+  
+}
+
+
+.hero  {
+   
+    max-width: 1059px;
+}
+.card-sec{
+    width: 90%;
+    height: 250PX;
+}
+.card-sec h2{
+    font: 500 27px "Syne", sans-serif;
+    margin-bottom: 22px;
+}
+#intro-detail{
+    font-weight: 500;
+    color: rgb(44, 44, 44);
+}
+
+#intro-sec{
+
+    margin-top: 120px;
+}.section-heading{
+    padding-top: 80px;
+}
+.section-heading h2{
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.three-card-sec{
+    width: 80%;
+    text-align: center;
+    height: 350px;
+    padding-top: 35px;
+}
+
+.card {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-top: 15px;
+}
+.card-num{
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    background-color: #fff1e4;
+    margin: auto;
+}
+
+.card :hover {
+  
+  box-shadow: 10px 8px 30px rgba(0, 0, 0, 0.507);
+  transition: 150ms;
+}
+.card-body :hover{
+  
+    box-shadow: none;
+  }
+
+
+#content-wrapper{
+ width: 100%;
+ height: 10rem;
+ background-color: #f0f9ff;
+
+ 
+
+}
+
+
+
+
+@media (max-width:991px) {
+    .large-12 {
+        width: 100%;
+        height: 48.5rem;
+        background-color: #f0f9ff;
+    
+    }
+    #content-wrapper {
+        width: 100%;
+        height: 15rem;
+        background-color: #f0f9ff;
+    }
+    .large-12 span h1 {
+        margin-top: 20px;
+        font: 500 48px / 56px "Syne", sans-serif;
+        text-align: center;
+        font-size: 36px;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .navbar-nav {
+        padding-right: 0px;
+    }
+
+    .nav-left-menu {
+
+        padding-left: 0%;
+        background-color: #f0f9ff;
+    }
+
+    .nav-right-menu {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #f0f9ff;
+
+    }
+
+    .nav-left-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item {
+        margin: 5px;
+    }
+
+    .dwn-btn {
+        display: none;
+
+    }
+
+    .right-nav-logo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: -35px;
+    }
+
+    .link-img {
+        height: 25px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        position: static;
+        padding-left: 5px;
+    }
+
+
+}
